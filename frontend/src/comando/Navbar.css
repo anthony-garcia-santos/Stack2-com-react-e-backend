@@ -1,0 +1,72 @@
+
+
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  color: black;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+.navbar h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-weight: 200;
+    font-size: 30px;
+    margin-right: 400px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    letter-spacing: 0.1px;
+}
+  
+
+
+
+
+.link-home{
+
+  text-decoration: none;
+  color: black;
+
+
+}
+
+.login-e-cadastro {
+  display: flex;
+  border: 0.5px solid black;
+}
+
+.link-login, .link-cadastrar {
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Borda entre os dois */
+.link-login {
+  border-right: 1px solid black;
+}
+
+.login-e-cadastro{
+  display: flex;
+  margin: 0;
+  position: relative;
+  left: -100px;
+}
+

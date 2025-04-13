@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+.apresentacao h1, p2{
+    display: flex;
+    position: relative;
+    top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.apresentacao p2{
+
+    top:170px;
+
+}
+
+.botaos {
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.apresentacao p {
+    display: flex;
+    position: relative;
+    top: 150px;
+
+}
+
+
+
+
+
+
+.apresentacao button{
+
+    display: flex;
+    position: relative;
+    top: 200px;
+    border: solid;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.apresentacao button:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+
+  
