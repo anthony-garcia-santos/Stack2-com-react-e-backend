@@ -1,6 +1,150 @@
-.Login {
 
+
+.login-tela {
+    
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.login-tela img {
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+.login-tela img:hover {
+    transform: scale(1.2);
+}
+
+.input-groupo {
     position: relative;
-    top: 100px;
+    margin-bottom: 15px;
 
+}
+
+.input-groupo input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(209, 209, 209);
+    font-size: 16px;
+}
+
+.input-groupo label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    pointer-events: none;
+}
+
+
+.input-groupo input:focus+label,
+.input-groupo input:not(:placeholder-shown)+label {
+    opacity: 0;
+}
+
+
+.lembrar-senha {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    gap: 10px;
+}
+
+.entrar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.entrar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.entrar:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.registrar {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.registrar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.registrar:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.HOME {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.HOME:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.HOME:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
 }
