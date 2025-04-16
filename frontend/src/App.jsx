@@ -12,8 +12,9 @@ export default function App() {
 
   return (
     <>
-      <AnimatePresence mode="wait">
-        {!hiddenNavbarRoutes.includes(location.pathname.toLowerCase()) && (
+      {/* Renderizar Navbar apenas se não for login ou cadastro */}
+      {!hiddenNavbarRoutes.includes(location.pathname.toLowerCase()) && (
+        <AnimatePresence>
           <motion.div
             key="navbar"
             initial={{ opacity: 0 }}
@@ -23,8 +24,8 @@ export default function App() {
           >
             <Navbar />
           </motion.div>
-        )}
-      </AnimatePresence>
+        </AnimatePresence>
+      )}
 
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>

@@ -1,10 +1,9 @@
 
 import { Navigate, useNavigate } from 'react-router-dom';
-
 import './estilos/Home.css';
 import PageTransition from './estilos/animação-telas';
 
-function Home() {
+export default function Home() {
 
   const navigate = useNavigate();
 
@@ -29,4 +28,4 @@ function Home() {
   );
 }
 
-export default Home;
+
