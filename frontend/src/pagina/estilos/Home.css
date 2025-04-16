@@ -2,24 +2,41 @@
 
 
 
-
-
-
-.apresentacao h1, p2{
+.apresentacao h1 {
     display: flex;
     position: relative;
-    top: 150px;
+    top: 170px;
+    font-size: 40px;
+    font-weight: 100; /* Agora vai funcionar mesmo */
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 0.1px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-}
+  }
+  
+  
+  .apresentacao p {
+    display: flex;
+    position: relative;
+    top: 200px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-.apresentacao p2{
 
-    top:170px;
 
-}
+
+
+
+
+
+
+
+
 
 .botaos {
 
@@ -31,12 +48,7 @@
 
 }
 
-.apresentacao p {
-    display: flex;
-    position: relative;
-    top: 150px;
 
-}
 
 
 
@@ -47,7 +59,7 @@
 
     display: flex;
     position: relative;
-    top: 200px;
+    top: 250px;
     border: solid;
     background-color: aquamarine;
     text-align: center;
@@ -59,6 +71,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 
 }
 

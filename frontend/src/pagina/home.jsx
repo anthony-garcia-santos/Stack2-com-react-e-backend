@@ -18,8 +18,8 @@ function Home() {
 
       <div className='apresentacao'>
         <h1>Lindas galerias de fotos de clientes</h1>
-        <p2>A melhor maneira para fotógrafos modernos compartilharem, entregarem, revisarem e venderem on-line.</p2>
-
+        <p>A melhor maneira para fotógrafos modernos compartilharem, entregarem, revisarem e venderem on-line.</p>
+        
         <div className='botaos'>
           <button onClick={cadastrar}>começar</button>
         </div>
