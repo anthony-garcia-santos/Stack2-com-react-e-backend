@@ -1,54 +1,54 @@
 # 📸 Stack2 - Front-end com React
 
-Este projeto é uma interface moderna de um sistema de galeria de fotos para fotógrafos, construído com **React.js**, **React Router DOM**, **Framer Motion** para transições de página e um design limpo em CSS customizado.
+Interface moderna para um sistema de galeria de fotos voltado a fotógrafos, desenvolvida com **React.js** e tecnologias modernas de animação e roteamento. O foco é entregar uma experiência visual fluida, leve e responsiva.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- **React.js** – Biblioteca principal para construção da UI.
-- **React Router DOM** – Navegação entre páginas sem recarregar a aplicação.
-- **Framer Motion** – Animações suaves entre rotas e componentes.
-- **CSS Puro** – Estilização customizada e responsiva.
-- **Fetch API** – Comunicação com o back-end em PHP.
-- **Hooks** – `useState`, `useNavigate`, `useLocation` e `useEffect`.
-
----
-
+- ⚛️ **React.js** – Biblioteca principal para construção da interface.
+- 🌐 **React Router DOM** – Navegação entre páginas (SPA) sem reload.
+- 🎞️ **Framer Motion** – Transições animadas suaves entre rotas e componentes.
+- 🎨 **CSS Puro** – Estilização customizada, responsiva e elegante.
+- 🔄 **Fetch API** – Comunicação assíncrona com o back-end em PHP.
+- 🧠 **React Hooks** – Uso de `useState`, `useNavigate`, `useLocation` e `useEffect`.
 
 ---
 
 ## 📚 Funcionalidades do Front-end
 
-- ✅ **Navegação dinâmica** entre páginas com animações suaves.
+- ✅ Navegação dinâmica entre páginas com **animações de entrada e saída**.
 - ✅ **Formulários responsivos** de login e cadastro.
-- ✅ **Página inicial chamativa** com CTA para cadastro.
-- ✅ **Controle condicional da Navbar**, que não aparece em rotas de login e cadastro.
-- ✅ **Mensagens de erro e sucesso** dinâmicas para feedback do usuário.
+- ✅ Página inicial com **Call to Action chamativo** incentivando o cadastro.
+- ✅ **Navbar condicional**: não aparece nas páginas de login e cadastro.
+- ✅ **Mensagens dinâmicas** de erro/sucesso com feedback imediato ao usuário.
 
 ---
 
 ## 🧠 Conhecimentos Demonstrados
 
-Você mostra domínio de:
-
-- JSX + CSS puro estilizado de forma profissional.
-- Gerenciamento de estado com React Hooks.
-- Navegação SPA com React Router (`Routes`, `useNavigate`, `useLocation`).
-- Componentização e reuso de código.
-- Animações de entrada/saída com `AnimatePresence` e `motion.div`.
-- Boas práticas de organização de código front-end.
+- ✔️ Estilização profissional com **JSX** e **CSS puro**.
+- ✔️ Gerenciamento de estado com **React Hooks**.
+- ✔️ Navegação SPA com **React Router** (`Routes`, `useNavigate`, `useLocation`).
+- ✔️ Componentização inteligente e reutilização de código.
+- ✔️ Animações com `AnimatePresence` e `motion.div` para transições suaves.
+- ✔️ Organização limpa de arquivos e boas práticas de front-end.
 
 ---
 
+## 🌍 Deploy (Rodando o Projeto)
 
+Acesse o projeto online:
 
----
-
-## 🔗 Rodando o Projeto
-
-![para rodar o projeto ao vivo](https://anthony-garcia-santos.github.io/Stack2-com-react-e-backend/)
+🔗 [Stack2 - Projeto Ao Vivo](https://anthony-garcia-santos.github.io/Stack2-com-react-e-backend/)
 
 ---
 
-## 🛠️ **Obs**: pouca reativida o stack2 não tem reatividade pré definida igual ao primeiro stack o segundo stack está tbm em fase de desenvolvimento.
+## 🛠️ Observações
+
+> ⚠️ **O Stack2 ainda está em fase de desenvolvimento.**
+>  
+> Diferente do Stack1, este projeto **não possui reatividade pré-definida**, o que pode deixar a interação um pouco mais limitada por enquanto.  
+> Assim como o Stack1, o Stack2 está em constante evolução, recebendo atualizações frequentes, melhorias de interface e novas funcionalidades. 🚧
+
+---
