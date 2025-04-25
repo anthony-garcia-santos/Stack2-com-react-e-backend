@@ -4,5 +4,4 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/Stack2-com-react-e-backend/',
-  plugins: [react()],
-})
+  plugins: [react()]})
